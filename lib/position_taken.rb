@@ -3,9 +3,9 @@
 def position_taken? (board, index)
   if board[index] != " "
      true
-     elsif board[index] != "" 
+  elseif board[index] != "" 
      true
-   elseif board[index] != nil
+  elseif board[index] != nil
      true
    else
      false
